@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salem Museum</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<
+<nav class="navbar">
+    <h2>Salem Museum</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#visit">Visit</a></li>
+    </ul>
+</nav>
+
+<
+<section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Discover Salem Museum</h1>
+        <p>Explore history, culture, and heritage in Salem.</p>
+
+        <a href="#visit" class="btn"> Visit</a>
+    </div>
+</section>
+
+
+<section id="about" class="about">
+    <h2>About the Museum</h2>
+    <p>
+        Salem Museum presents the rich cultural heritage of Tamil Nadu with artifacts, sculptures, and history.<br>  Government Museum Salem is functioning at Sarada College Road, Fairlands Salem- 636 016 from the year 2007 onwards.<br>The Salem Government Museum was formed by the then District Collector Thiru.A.M.Swaminathan,I.A.S., with the support of the Local Artist Group called Contemporary Writers and Painters Association.<br> The Museum was opened to the public in the year 1976. From the year 1976 to 1979 it was functioning under the District Administration.<br>Later in the year 1979 it came under the Department of Museums.<br> From 1979 to 1996 Govt.Museum Salem was functioning at the Three Bungalow .<br> From 1996 to 2007 January it was functioning at the Court building. This was the first District Museum created by the people, <br> the people and formed the basis for the creation of new District Museums.
+    </p>
+</section>
+
+
+<section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+
+    <div class="gallery-grid">
+
+    <img src="https://th-i.thgim.com/public/incoming/8ejh9f/article69479248.ece/alternates/FREE_1200/MUSEUM_2.JPG" onclick="openPopup(this)">
+        <p>Front view of Salem Government Museum</p>
+
+    <img src="https://www.holidify.com/images/cmsuploads/square/aasbasb_20190221150145.jpg" onclick="openPopup(this)">
+<p>Interior section showcasing historical artifacts</p>
+    <img src="https://th-i.thgim.com/public/migration_catalog/article13866188.ece/alternates/FREE_1200/salem%20museum" onclick="openPopup(this)">
+ <p>Ancient sculptures preserved in the museum</p>
+    <img src="https://www.travelworldplanet.com/wp-content/uploads/2022/06/Government-Museum-Salem.jpg" onclick="openPopup(this)">
+ <p>Rare artifacts from early civilization</p>
+   <img src="https://images.unsplash.com/photo-1566054757965-8c4085344c96?auto=format&fit=crop&w=800&q=80" onclick="openPopup(this)">
+ <p>Exhibition hall displaying cultural heritage</p>
+   
+</div>
+</section>
+
+
+<section id="visit" class="visit">
+    <h2>Plan Your Visit</h2>
+
+    <div class="visit-card">
+        <p><i class="fas fa-map-marker-alt"></i> Salem, Tamil Nadu</p>
+        <p><i class="fas fa-clock"></i> 10 AM - 5 PM</p>
+        <p><i class="fas fa-ticket-alt"></i> ₹20 Entry</p>
+
+        <button class="btn">Get Directions</button>
+    </div>
+</section>
+<div class="social-icons">
+
+    <a href="#"><i class="fab fa-chrome"></i></a>
+    <a href="#"><i class="fas fa-share-alt"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+
+</div>
+
+<footer>
+    <p>© 2026 Salem Museum | Designed by Anju 💜</p>
+</footer>
+
+
+<div id="popup" class="popup">
+    <span id="close">&times;</span>
+    <img id="popup-img">
+</div>
+
+
+<script>
+function openPopup(img) {
+    document.getElementById("popup").style.display = "block";
+    document.getElementById("popup-img").src = img.src;
+}
+
+document.getElementById("close").onclick = function() {
+    document.getElementById("popup").style.display = "none";
+}
+</script>
+
+</body>
+</html>
